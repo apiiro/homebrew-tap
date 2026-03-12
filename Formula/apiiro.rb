@@ -1,21 +1,21 @@
 class Apiiro < Formula
   desc "CLI tool for Apiiro security scanning and code risk analysis"
   homepage "https://github.com/apiiro/cli-releases"
-  version "1.1.3"
+  version "1.1.4"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/apiiro/cli-releases/releases/download/v1.1.3/apiiro-macos-arm64"
-      sha256 "aebc3717e96d80f15bc74b71b99e274a6e5a912b068966e06df74dd01827f05b"
+      url "https://github.com/apiiro/cli-releases/releases/download/v1.1.4/apiiro-macos-arm64"
+      sha256 "5b99aa6e90dfea63b96c571f7908007067dca24d51b6b1e745da2a45fd623eca"
 
       def install
         bin.install "apiiro-macos-arm64" => "apiiro"
       end
     end
     on_intel do
-      url "https://github.com/apiiro/cli-releases/releases/download/v1.1.3/apiiro-macos-x64"
-      sha256 "e11ada56b9f191973ec407c9d5172d02b94e0946acbf3e52ea3bcd3a547905b7"
+      url "https://github.com/apiiro/cli-releases/releases/download/v1.1.4/apiiro-macos-x64"
+      sha256 "1352a6174ed9ed503730eb6b80a6595e763ab47c04e4bc4547ab67328adbdcb3"
 
       def install
         bin.install "apiiro-macos-x64" => "apiiro"
@@ -25,16 +25,16 @@ class Apiiro < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/apiiro/cli-releases/releases/download/v1.1.3/apiiro-linux-x64"
-      sha256 "27b096f0c79967efe228b778c51a92869a0ef40da5b7074736ca3d4a56e9477a"
+      url "https://github.com/apiiro/cli-releases/releases/download/v1.1.4/apiiro-linux-x64"
+      sha256 "8986662b8055fc2013a956ee6ba88232c15e303a2fcd04ae317b10adb31f9efe"
 
       def install
         bin.install "apiiro-linux-x64" => "apiiro"
       end
     end
     on_arm do
-      url "https://github.com/apiiro/cli-releases/releases/download/v1.1.3/apiiro-linux-arm64"
-      sha256 "322d5b3d86ca560c2b71b1473f53bb3d611f29536eec905ec1e3f4b09ac9225f"
+      url "https://github.com/apiiro/cli-releases/releases/download/v1.1.4/apiiro-linux-arm64"
+      sha256 "f84856f4af0f801a54be2030ba7a423099cc587337b4beafd245b7281ab49b81"
 
       def install
         bin.install "apiiro-linux-arm64" => "apiiro"
