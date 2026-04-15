@@ -7,7 +7,7 @@ class Apiiro < Formula
   on_macos do
     on_arm do
       url "https://github.com/apiiro/marketplace/releases/download/v1.2.0/apiiro-macos-arm64"
-      sha256 "bb267c1d278c92f8a9cea7b1b96e20433fc68b13b14b65e7c1db61315164cc02"
+      sha256 "b9ec866c5fca1f9441b84da39c78ad900ee7022c06fa348da8e6aefea1e7f7db"
 
       def install
         bin.install "apiiro-macos-arm64" => "apiiro"
@@ -15,7 +15,7 @@ class Apiiro < Formula
     end
     on_intel do
       url "https://github.com/apiiro/marketplace/releases/download/v1.2.0/apiiro-macos-x64"
-      sha256 "7740cf51eeea64d5677078434386e1a99ff2a317bc8b1d5c2ae13f991d709fed"
+      sha256 "20cc68e7ac0e6be496f4827a1992a85021a8c101ebf4fd5d97a1c880e86fe5ad"
 
       def install
         bin.install "apiiro-macos-x64" => "apiiro"
